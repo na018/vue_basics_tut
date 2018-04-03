@@ -1,0 +1,249 @@
+{
+  "users": [
+    {
+      "userName": "colin",
+      "id": 1,
+      "firstName": "Colin",
+      "lastName": "Conjurer",
+      "img": "/static/img/avatars/avatar-male-1.png"
+    },
+    {
+      "userName": "jess",
+      "id": 2,
+      "firstName": "Jessi",
+      "lastName": "James",
+      "img": "/static/img/avatars/avatar-female-1.png"
+    },
+    {
+      "userName": "heroHunter",
+      "id": 3,
+      "firstName": "Hero",
+      "lastName": "Hunter",
+      "img": "/static/img/avatars/hero.png"
+    },
+    {
+      "userName": "love",
+      "id": 4,
+      "firstName": "Ada",
+      "lastName": "Lovelace",
+      "img": "/static/img/avatars/avatar-female-2.png"
+    },
+    {
+      "id": 5,
+      "userName": "justin",
+      "firstName": "Justin",
+      "lastName": "Timberlake",
+      "img": "/static/img/avatars/avatar-male-2.png"
+    }
+  ],
+  "kanBanBoards": [
+    {
+      "id": 1,
+      "name": "kanban",
+      "abbr": "KB"
+    }
+  ],
+  "kanBanItems": [
+    {
+      "id": 1,
+      "refBoardId": 1,
+      "title": "Create Kanban Board Architecure",
+      "description": "Please architect the Board nicely,because a good architecture is so important for maintenance and extendability. It will save your boss a lot of money if done well.",
+      "status": "done",
+      "subTasks": {
+        "implement": {
+          "responsible": "Jessi James",
+          "name": "developer",
+          "status": "done"
+        },
+        "test": {
+          "responsible": "Ada Lovelace",
+          "name": "tester",
+          "status": "due"
+        },
+        "document": {
+          "responsible": "Colin Conjurer",
+          "name": "writer",
+          "status": ""
+        },
+        "review": {
+          "responsible": "",
+          "name": "reviewer",
+          "status": ""
+        }
+      },
+      "creator": "Jessi James",
+      "order": 0,
+      "fixed": false,
+      "taskType": "feature"
+    },
+    {
+      "id": 2,
+      "refBoardId": 1,
+      "title": "Create Kanban Board Card Items",
+      "description": "some description",
+      "status": "todo",
+      "subTasks": {
+        "implement": {
+          "responsible": "Colin Conjurer",
+          "name": "developer",
+          "status": ""
+        },
+        "test": {
+          "responsible": "Ada Lovelace",
+          "name": "tester",
+          "status": ""
+        },
+        "document": {
+          "responsible": "Jessi James",
+          "name": "writer",
+          "status": ""
+        },
+        "review": {
+          "responsible": "Hero Hunter",
+          "name": "reviewer",
+          "status": ""
+        }
+      },
+      "creator": "Colin Egglesfield",
+      "order": 1,
+      "fixed": false,
+      "taskType": "feature"
+    },
+    {
+      "id": 3,
+      "refBoardId": 1,
+      "title": "Create Kanban Board User Site",
+      "description": "some description",
+      "status": "done",
+      "subTasks": {
+        "implement": {
+          "responsible": "Ada Lovelace",
+          "name": "developer",
+          "status": "done"
+        },
+        "test": {
+          "responsible": "Justin Timberlake",
+          "name": "tester",
+          "status": "done"
+        },
+        "document": {
+          "responsible": "",
+          "name": "writer",
+          "status": ""
+        },
+        "review": {
+          "responsible": "",
+          "name": "reviewer",
+          "status": ""
+        }
+      },
+      "creator": "Colin Egglesfield",
+      "order": 2,
+      "fixed": false,
+      "taskType": "feature"
+    },
+    {
+      "id": 4,
+      "refBoardId": 1,
+      "title": "Fix the crazy appearing bug",
+      "description": "some description",
+      "status": "done",
+      "subTasks": {
+        "implement": {
+          "responsible": "Justin Timberlake",
+          "name": "developer",
+          "status": "done"
+        },
+        "test": {
+          "responsible": "Hero Hunter",
+          "name": "tester",
+          "status": "done"
+        },
+        "document": {
+          "responsible": "Colin Conjurer",
+          "name": "writer",
+          "status": "done"
+        },
+        "review": {
+          "responsible": "Justin Timberlake",
+          "name": "reviewer",
+          "status": "done"
+        }
+      },
+      "creator": "Jessi James",
+      "order": 3,
+      "fixed": false,
+      "taskType": "bug"
+    },
+    {
+      "id": 5,
+      "refBoardId": 1,
+      "title": "Design Board",
+      "description": "some description",
+      "status": "done",
+      "subTasks": {
+        "implement": {
+          "responsible": "Colin Conjurer",
+          "name": "developer",
+          "status": "done"
+        },
+        "test": {
+          "responsible": "Ada Lovelace",
+          "name": "tester",
+          "status": "done"
+        },
+        "document": {
+          "responsible": "",
+          "name": "writer",
+          "writer": "",
+          "status": ""
+        },
+        "review": {
+          "responsible": "",
+          "name": "reviewer",
+          "reviewer": "",
+          "status": ""
+        }
+      },
+      "creator": "Jessi James",
+      "order": 4,
+      "fixed": false,
+      "taskType": "other"
+    },
+    {
+      "id": 7,
+      "refBoardId": 1,
+      "title": "My New Task",
+      "description": "Some bug",
+      "status": "inProgress",
+      "subTasks": {
+        "implement": {
+          "responsible": "Justin Timberlake",
+          "name": "developer",
+          "status": "done"
+        },
+        "test": {
+          "responsible": "Jessi James",
+          "name": "tester",
+          "status": "done"
+        },
+        "document": {
+          "responsible": "",
+          "name": "writer",
+          "status": ""
+        },
+        "review": {
+          "responsible": "",
+          "name": "reviewer",
+          "status": ""
+        }
+      },
+      "creator": "heroHunter",
+      "order": 6,
+      "fixed": false,
+      "taskType": "bug",
+      "kanBanBoardId": "1"
+    }
+  ]
+}
