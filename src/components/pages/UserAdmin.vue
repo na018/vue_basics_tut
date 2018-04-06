@@ -3,18 +3,6 @@
     <m-user-card :user="activeUser" :userName="activeUser.userName"></m-user-card>
     <v-divider></v-divider>
     <v-layout wrap pa-3>
-<!--      {{Object.keys(allUsers)}}<br>
-      {{allUsers.love}}<br>-->
-      {{onePerson}}
-      {{onePerson.firstName}}
-      <ul>
-        <li><v-text-field type="Number" v-model="onePerson.id" ></v-text-field></li>
-        <li><v-text-field v-model="onePerson.userName" ></v-text-field></li>
-        <li><v-text-field v-model="onePerson.firstName" ></v-text-field></li>
-        <li><v-text-field v-model="onePerson.lastName" ></v-text-field></li>
-        <li><img :src="onePerson.img" ></li>
-      </ul>
-
       <m-activate-user v-for="(user, key, index) in allUsers"  v-if="key !== activeUser.userName"
                        :user="user" :userName="key"
                        :key="user._id" class="hover-user"
