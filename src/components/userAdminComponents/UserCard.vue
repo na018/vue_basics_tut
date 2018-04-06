@@ -6,7 +6,7 @@
           <img :src="user.img">
         </v-list-tile-avatar>
         <v-list-tile-content>
-          <v-list-tile-sub-title> {{userName}}</v-list-tile-sub-title>
+          <v-list-tile-sub-title> {{user.userName}}</v-list-tile-sub-title>
           <v-list-tile-title>
             {{user.firstName + ' ' + user.lastName}}
           </v-list-tile-title>

@@ -49,7 +49,7 @@
       "refBoardId": 1,
       "title": "Create Kanban Board Architecure",
       "description": "Please architect the Board nicely,because a good architecture is so important for maintenance and extendability. It will save your boss a lot of money if done well.",
-      "status": "todo",
+      "status": "inProgress",
       "subTasks": {
         "implement": {
           "responsible": "Jessi James",
@@ -59,7 +59,7 @@
         "test": {
           "responsible": "Ada Lovelace",
           "name": "tester",
-          "status": "due"
+          "status": "done"
         },
         "document": {
           "responsible": "Colin Conjurer",
@@ -216,7 +216,7 @@
       "refBoardId": 1,
       "title": "My New Task",
       "description": "Some bug",
-      "status": "inProgress",
+      "status": "done",
       "subTasks": {
         "implement": {
           "responsible": "Justin Timber",

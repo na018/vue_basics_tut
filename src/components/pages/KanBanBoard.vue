@@ -7,7 +7,7 @@
 </template>
 
 <script>
-  import MKanBanColumn from "../canBanComponents/KanBanColumn"
+  import MKanBanColumn from "../kanBanComponents/KanBanColumn"
   import {mapGetters} from 'vuex'
 
   export default {

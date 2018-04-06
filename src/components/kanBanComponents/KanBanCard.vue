@@ -22,7 +22,7 @@
 
 <script>
   import {mapActions} from 'vuex'
-  import MSubTask from "./subTask"
+  import MSubTask from "./KanBanSubTask"
   export default {
     components: {MSubTask},
     name: "m-kan-ban-card",

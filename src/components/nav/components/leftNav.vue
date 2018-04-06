@@ -2,7 +2,7 @@
   <v-navigation-drawer class="left-nav" :mini-variant="miniVariant" :clipped="clipped" :value="drawer"
                        persistent enable-resize-watcher fixed app>
     <v-toolbar flat class="transparent">
-      <v-list class="pa-0 transparent">
+      <v-list class="pa-0 transparent" v-if="activeUser">
         <v-list-tile avatar>
           <v-list-tile-avatar >
             <img :src="activeUser.img">
