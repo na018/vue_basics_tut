@@ -181,7 +181,7 @@
       "refBoardId": 1,
       "title": "Design Board",
       "description": "some description",
-      "status": "done",
+      "status": "inProgress",
       "subTasks": {
         "implement": {
           "responsible": "Colin Conjurer",

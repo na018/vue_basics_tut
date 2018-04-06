@@ -18,8 +18,6 @@ const getters = {
 const actions = {
   getAllUsers({commit}) {
     dsUsers.getUsers(users => {
-      console.log('users')
-      console.log(users)
       commit('receiveUsers', {users})
     })
   },
