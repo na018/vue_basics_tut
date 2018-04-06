@@ -75,4 +75,13 @@ i.icon.trashBtn {
 .card__title label {
   padding: 0 15px 2px 5px; }
 
+.mw-900 {
+  max-width: 900px; }
+
+.center {
+  margin: auto; }
+
+.hover-user:hover {
+  box-shadow: inset 0 0 30px #eff6f5; }
+
 /*# sourceMappingURL=main.css.map */
