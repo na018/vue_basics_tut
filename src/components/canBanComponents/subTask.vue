@@ -95,42 +95,8 @@
         })
         this.activateSelect = false
       },
-      changeView() {
-        //this.activateSelect = false
-      },
-
     },
   }
 </script>
-<style lang="scss">
-  .small.input-group--text-field {
-    padding-top: 0px !important;
-    padding-left: 5px !important;
-    label {
-      position: absolute;
-      top: 0;
-      left: 5px;
-      font-size: 12px;
-      font-style: italic;
-    }
-    input {
-      font-size: 12px;
-      color: #373737;
-    }
-  }
 
-  .pointer {
-    cursor: pointer;
-  }
-
-  .subTask {
-    .list__tile--avatar {
-      height: unset;
-    }
-    .avatar {
-      height: 35px !important;
-      width: 35px !important;
-    }
-  }
-</style>
 

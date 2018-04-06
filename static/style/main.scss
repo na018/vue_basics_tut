@@ -1,0 +1,89 @@
+.move {
+  cursor: move;
+}
+
+.full-height {
+  height: 100% !important;
+}
+.mw-10 {
+  max-width: 10px !important;
+  min-width: 10px;
+}
+.grey.card-color-indicator{
+  box-shadow: inset 4px 1px 4px grey;
+}
+.red.card-color-indicator{
+  box-shadow: inset 4px 1px 4px #930000;
+}
+.light-blue.card-color-indicator{
+  box-shadow: inset 4px 1px 4px blue;
+}
+.kanban-card{
+  box-shadow: inset 0 0 8px #bdbdbd;
+}
+.kanban-card-description {
+  font-style: italic;
+  font-size: 13px;
+  color: grey;
+}
+.no-details .input-group__details{
+  display: none;
+}
+i.icon.trashBtn {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.15);
+  font-size: 20px;
+  margin-bottom: 4px;
+  margin-right: -15px;
+  padding-bottom: 0;
+  &:hover{
+    color: rgba(203, 0, 0, 0.53);
+  }
+  &:active{
+    margin-top: -1px;
+    padding-bottom: 1px;
+  }
+}
+
+.small.input-group--text-field {
+  padding-top: 0px !important;
+  padding-left: 5px !important;
+  label {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    font-size: 12px;
+    font-style: italic;
+  }
+  input {
+    font-size: 12px;
+    color: #373737;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.subTask {
+  .list__tile--avatar {
+    height: unset;
+  }
+  .avatar {
+    height: 35px !important;
+    width: 35px !important;
+  }
+}
+
+.no-pad label {
+  top: unset !important;
+}
+.italic {
+  font-style:italic;
+}
+.grey--text textarea{
+  color: grey !important;
+}
+.card__title label {
+  padding: 0 15px 2px 5px;
+}

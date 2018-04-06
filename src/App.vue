@@ -3,7 +3,6 @@
     <m-nav></m-nav>
     <v-content>
       <router-view/>
-      <!-- todo implement KanBan Board-->
     </v-content>
     <m-footer></m-footer>
   </v-app>

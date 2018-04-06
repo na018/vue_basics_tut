@@ -4,7 +4,6 @@
           <v-flex :class="bgColor" class="mw-10 card-color-indicator"></v-flex>
           <v-flex>
             <v-card-title class="grey pa-0 grey--text text--darken-2 lighten-2 pl-3">
-              <!---icon color="white">brush</v-icon-->
               <span>{{item.title}}</span>
               <v-spacer></v-spacer>
               <span class="px-2 grey--text" :class="bgColor">{{boardAbbr +'-' +item.id}}</span>
@@ -55,44 +54,3 @@
   }
 </script>
 
-<style lang="scss">
-  .mw-10 {
-    max-width: 10px !important;
-    min-width: 10px;
-  }
-  .grey.card-color-indicator{
-    box-shadow: inset 4px 1px 4px grey;
-  }
-  .red.card-color-indicator{
-    box-shadow: inset 4px 1px 4px #930000;
-  }
-  .light-blue.card-color-indicator{
-    box-shadow: inset 4px 1px 4px blue;
-  }
-  .kanban-card{
-    box-shadow: inset 0 0 8px #bdbdbd;
-  }
-  .kanban-card-description {
-    font-style: italic;
-    font-size: 13px;
-    color: grey;
-  }
-  .no-details .input-group__details{
-    display: none;
-  }
-  i.icon.trashBtn {
-    cursor: pointer;
-    color: rgba(0, 0, 0, 0.15);
-    font-size: 20px;
-    margin-bottom: 4px;
-    margin-right: -15px;
-    padding-bottom: 0;
-    &:hover{
-      color: rgba(203, 0, 0, 0.53);
-    }
-    &:active{
-      margin-top: -1px;
-      padding-bottom: 1px;
-    }
-  }
-</style>

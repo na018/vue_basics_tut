@@ -27,7 +27,7 @@
           <span class="caption">* Please fill out all fields</span>
         </v-flex>
         <v-flex xs12>
-          <v-btn icon color="text--white white--text elevation-3 right" :class="card.description.length>0 && card.title.length>0 ? 'blue' :''"
+          <v-btn icon class="text--white white--text elevation-3 right" :class="card.description.length>0 && card.title.length>0 ? 'blue' :''"
           title="save" :disabled="card.description.length===0 || card.title.length===0 " @click="addCard({card}); $emit('disableNewTask')">
             <v-icon>add</v-icon>
           </v-btn>
@@ -76,17 +76,3 @@
     }
   }
 </script>
-<style>
- .no-pad label {
-   top: unset !important;
- }
-  .italic {
-    font-style:italic;
-  }
-  .grey--text textarea{
-    color: grey !important;
-  }
-  .card__title label {
-    padding: 0 15px 2px 5px;
-  }
-</style>

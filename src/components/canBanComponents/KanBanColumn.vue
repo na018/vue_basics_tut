@@ -4,11 +4,11 @@
     <v-btn icon v-if="status === 'todo' && !showNewTask" @click="showNewTask = true">
       <v-icon>add</v-icon>
     </v-btn>
-    <m-kan-ban-new-inline-task v-if="status === 'todo' &&showNewTask"
+    <m-kan-ban-new-inline-task v-if="status === 'todo' && showNewTask"
                                @disableNewTask="showNewTask=false"></m-kan-ban-new-inline-task>
     <draggable class="elevation-1 full-height" element="v-card" v-model="list" :options="{group}" :move="onMove"
                @change="val => changeOrder(val)" @start="isDragging=true"
-               @end="val => {isDragging=false; putCardLocal()}">
+               @end="val => isDragging=false">
       <m-kan-ban-card @click="activeCard = item" :item="item" v-for="(item, index) in list" :key="index"
                       :boardAbbr="activeBoard.abbr"></m-kan-ban-card>
     </draggable>
@@ -59,7 +59,6 @@
             prop: this.status,
             val,
             cb2: newColumn => {
-
             },
           })
 
@@ -90,12 +89,7 @@
         const relatedElement = relatedContext.element;
         const draggedElement = draggedContext.element;
         if (draggedContext.index !== draggedContext.futureIndex) {
-          this.draggedElement = draggedContext.element
-
-          /* console.log('relatedElement')
-           console.log(relatedContext)
-           console.log(draggedContext)*/
-        }
+          this.draggedElement = draggedContext.element     }
 
         return (!relatedElement || !relatedElement.fixed) && !draggedElement.fixed
       },
@@ -105,21 +99,8 @@
           this.putCard({card: item.added.element})
         }
       },
-      putCardLocal() {
-        console.log('this.activeCard')
-        console.log(this.activeCard)
-        //this.putCard({card: this.draggedElement})
-      },
     },
   }
 
 </script>
-<style>
-  .move {
-    cursor: move;
-  }
 
-  .full-height {
-    height: 100% !important;
-  }
-</style>
