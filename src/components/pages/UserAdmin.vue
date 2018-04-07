@@ -16,7 +16,6 @@
     import MUserCard from "../userAdminComponents/UserCard"
 
     export default {
-
         components: {MUserCard},
         name: "m-user-admin",
         data() {
