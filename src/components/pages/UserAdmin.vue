@@ -25,6 +25,9 @@
             MUserCard,
         },
         name: "m-user-admin",
+        computed: {
+            // todo |KB-5| Get allUsers & activeUser from Vuex store
+        },
         data() {
             return {
                 activeUser: {

@@ -24,6 +24,15 @@ const actions = {
   setUser({commit}, {obj, prop, val}) {
     commit('setUser', {name})
   },
+    /**
+     *
+     * @param user {Object}
+     * @param user.firstName {String}
+     * @param user.lastName {String}
+     * @param user.userName {String}
+     * @param user.img {String} relative image path
+     * @param user.id {Number}
+     */
   setActiveUser({commit}, {user}) {
     commit('setActiveUser', {user})
   },

@@ -1,34 +1,35 @@
 <template>
-  <v-flex lg6 xs12>
-  <v-layout>
-    <v-flex xs8>
-      <m-user-card :user="user"></m-user-card>
+    <v-flex lg6 xs12>
+        <v-layout>
+            <v-flex xs8>
+                <m-user-card :user="user"></m-user-card>
+            </v-flex>
+            <v-flex xs4 mt-2 mr-1 @click="setActive">
+                <v-btn>set active</v-btn>
+            </v-flex>
+        </v-layout>
     </v-flex>
-    <v-flex xs4 mt-2 mr-1 @click="setActive">
-      <v-btn>set active</v-btn>
-    </v-flex>
-  </v-layout>
-  </v-flex>
 </template>
 
 <script>
 
-  import MUserCard from "./UserCard"
+    import MUserCard from "./UserCard"
 
-  export default {
-    components: {MUserCard},
-    name: "m-activate-user",
-    props: {
-      user: {
-        type: Object,
-        required: true,
-      }
-    },
-    methods: {
-      setActive() {
-          this.$emit('changeActiveUser')
-      },
-    },
-  }
+    export default {
+        components: {MUserCard},
+        name: "m-activate-user",
+        props: {
+            user: {
+                type: Object,
+                required: true,
+            },
+        },
+        methods: {
+            setActive: function () {
+                // todo |KB-6| setActiveUser in Vuex store
+                this.$emit('changeActiveUser')
+            },
+        },
+    }
 </script>
 
