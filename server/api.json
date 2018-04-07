@@ -47,186 +47,19 @@
     {
       "id": 1,
       "refBoardId": 1,
-      "title": "Create Kanban Board Architecure",
-      "description": "Please architect the Board nicely,because a good architecture is so important for maintenance and extendability. It will save your boss a lot of money if done well.",
-      "status": "inProgress",
-      "subTasks": {
-        "implement": {
-          "responsible": "Jessi James",
-          "name": "developer",
-          "status": "done"
-        },
-        "test": {
-          "responsible": "Ada Lovelace",
-          "name": "tester",
-          "status": "done"
-        },
-        "document": {
-          "responsible": "Colin Conjurer",
-          "name": "writer",
-          "status": ""
-        },
-        "review": {
-          "responsible": "",
-          "name": "reviewer",
-          "status": ""
-        }
-      },
-      "creator": "Jessi James",
-      "order": 0,
-      "fixed": false,
-      "taskType": "feature"
-    },
-    {
-      "id": 2,
-      "refBoardId": 1,
-      "title": "Create Kanban Board Card Items",
-      "description": "some description",
+      "title": "Implement data-binding in UserAdmin.vue",
+      "description": "create an editable Person Object",
       "status": "todo",
       "subTasks": {
         "implement": {
-          "responsible": "Colin Conjurer",
-          "name": "developer",
-          "status": ""
-        },
-        "test": {
-          "responsible": "Ada Lovelace",
-          "name": "tester",
-          "status": ""
-        },
-        "document": {
-          "responsible": "Jessi James",
-          "name": "writer",
-          "status": ""
-        },
-        "review": {
-          "responsible": "Hero Hunter",
-          "name": "reviewer",
-          "status": ""
-        }
-      },
-      "creator": "Colin Egglesfield",
-      "order": 1,
-      "fixed": false,
-      "taskType": "feature"
-    },
-    {
-      "id": 3,
-      "refBoardId": 1,
-      "title": "Create Kanban Board User Site",
-      "description": "some description",
-      "status": "todo",
-      "subTasks": {
-        "implement": {
-          "responsible": "Ada Lovelace",
-          "name": "developer",
-          "status": "done"
-        },
-        "test": {
-          "responsible": "Justin Timber",
-          "name": "tester",
-          "status": "done"
-        },
-        "document": {
           "responsible": "",
-          "name": "writer",
-          "status": ""
-        },
-        "review": {
-          "responsible": "",
-          "name": "reviewer",
-          "status": ""
-        }
-      },
-      "creator": "Colin Egglesfield",
-      "order": 2,
-      "fixed": false,
-      "taskType": "feature"
-    },
-    {
-      "id": 4,
-      "refBoardId": 1,
-      "title": "Fix the crazy appearing bug",
-      "description": "some description",
-      "status": "todo",
-      "subTasks": {
-        "implement": {
-          "responsible": "Jessi James",
           "name": "developer",
-          "status": "done"
+          "status": ""
         },
         "test": {
-          "responsible": "Hero Hunter",
-          "name": "tester",
-          "status": "done"
-        },
-        "document": {
-          "responsible": "Colin Conjurer",
-          "name": "writer",
-          "status": "done"
-        },
-        "review": {
-          "responsible": "Ada Lovelace",
-          "name": "reviewer",
-          "status": "done"
-        }
-      },
-      "creator": "Jessi James",
-      "order": 3,
-      "fixed": false,
-      "taskType": "bug"
-    },
-    {
-      "id": 5,
-      "refBoardId": 1,
-      "title": "Design Board",
-      "description": "some description",
-      "status": "inProgress",
-      "subTasks": {
-        "implement": {
-          "responsible": "Colin Conjurer",
-          "name": "developer",
-          "status": "done"
-        },
-        "test": {
-          "responsible": "Ada Lovelace",
-          "name": "tester",
-          "status": "done"
-        },
-        "document": {
           "responsible": "",
-          "name": "writer",
-          "writer": "",
-          "status": ""
-        },
-        "review": {
-          "responsible": "",
-          "name": "reviewer",
-          "reviewer": "",
-          "status": ""
-        }
-      },
-      "creator": "Jessi James",
-      "order": 4,
-      "fixed": false,
-      "taskType": "other"
-    },
-    {
-      "id": 7,
-      "refBoardId": 1,
-      "title": "My New Task",
-      "description": "Some bug",
-      "status": "done",
-      "subTasks": {
-        "implement": {
-          "responsible": "Justin Timber",
-          "name": "developer",
-          "status": "done"
-        },
-        "test": {
-          "responsible": "Jessi James",
           "name": "tester",
-          "status": "done"
+          "status": ""
         },
         "document": {
           "responsible": "",
@@ -240,9 +73,9 @@
         }
       },
       "creator": "heroHunter",
-      "order": 6,
+      "order": 1,
       "fixed": false,
-      "taskType": "bug",
+      "taskType": "feature",
       "kanBanBoardId": "1"
     }
   ]
