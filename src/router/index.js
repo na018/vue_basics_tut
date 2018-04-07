@@ -1,17 +1,27 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import UserAdmin from '@/components/pages/UserAdmin'
+import KanBanBoard from '@/components/pages/KanBanBoard'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
-    {
-      path: '*',
-      name: 'UserAdmin',
-      component: UserAdmin
-    },
-      // todo |KB-7| implement routes to '/' '/board' '/users' to UserAdmin page & KanBanBoard page
+      {
+          path: '/',
+          name: 'KanBanBoard',
+          component: KanBanBoard
+      },
+      {
+          path: '/board',
+          name: 'KanBanBoard',
+          component: KanBanBoard
+      },
+      {
+          path: '/users',
+          name: 'UserAdmin',
+          component: UserAdmin
+      }
   ],
   mode: 'history'
 })

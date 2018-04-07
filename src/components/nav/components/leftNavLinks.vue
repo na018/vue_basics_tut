@@ -23,7 +23,11 @@
                         title: 'User Admin',
                         link: '/users'
                     },
-                    // todo |KB-8| add link to /board with 'dashboard' icon
+                    {
+                        icon: 'dashboard',
+                        title: 'Board',
+                        link: '/board'
+                    },
                 ],
                 activeColor: this.$router.currentRoute.fullPath === '/' ? 'list__tile--active' : ''
             }
