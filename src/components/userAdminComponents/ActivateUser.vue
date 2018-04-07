@@ -2,7 +2,7 @@
   <v-flex lg6 xs12>
   <v-layout>
     <v-flex xs8>
-      <!-- todo |KB-3| use 'src/components/userAdminComponents/UserCard.vue' <m-user-card> for displaying the user nicely -->
+      <m-user-card :user="user"></m-user-card>
     </v-flex>
     <v-flex xs4 mt-2 mr-1 @click="setActive">
       <v-btn>set active</v-btn>
@@ -13,22 +13,20 @@
 
 <script>
 
+  import MUserCard from "./UserCard"
+
   export default {
-    components: {},
+    components: {MUserCard},
     name: "m-activate-user",
     props: {
       user: {
         type: Object,
         required: true,
-      },
-      userName: {
-        type: String,
-        required: true
       }
     },
     methods: {
       setActive() {
-          // todo |KB-4| tell the parent component it should update it's activeUser
+          this.$emit('changeActiveUser')
       },
     },
   }
