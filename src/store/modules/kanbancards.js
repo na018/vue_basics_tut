@@ -9,15 +9,14 @@ const state = {
         abbr: 'KB',
         id: 1,
     },
-    status: [],
-    /* todo |KB-9| define status type (e.g. status: ['inProgress', 'done'...]) used in 'src/components/kanBanComponents/KanBanColumn.vue' defining the columns, in 'src/components/kanBanComponents/KanBanCard.vue' defining the card view & in 'src/store/modules/kanbancards.js' receiveAllCards() for Ordering the cards by status*/
+    status: ['todo', 'inProgress', 'done'],
 }
 
 const getters = {
     allCards: state => state.all,
     cardsByStatus: state => state.cardsByStatus,
     activeBoard: state => state.activeBoard,
-    // todo implement 'getStatus' getter returning the status possibilities of the kanban column & card status types (e.g. inProgress, done)
+    getStatus: state => state.status,
 }
 
 const actions = {
