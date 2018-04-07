@@ -12,7 +12,7 @@
 </template>
 
 <script>
-
+    import {mapActions} from 'vuex'
     import MUserCard from "./UserCard"
 
     export default {
@@ -25,9 +25,16 @@
             },
         },
         methods: {
+            ...mapActions(['setActiveUser']),
             setActive: function () {
-                // todo |KB-6| setActiveUser in Vuex store
-                this.$emit('changeActiveUser')
+                this.setActiveUser({
+                    user: {
+                        userName: this.user.userName,
+                        firstName: this.user.firstName,
+                        lastName: this.user.lastName,
+                        img: this.user.img
+                    },
+                })
             },
         },
     }
