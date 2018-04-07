@@ -7,12 +7,13 @@ import 'babel-polyfill'
 import module from '../../../src/store/modules/users'
 import Nav from '@/components/nav/Nav'
 import topNav from '@/components/nav/components/topNav'
+import leftNavLinks from '@/components/nav/components/leftNavLinks'
 import leftNav from '@/components/nav/components/leftNav'
 import rightNav from '@/components/nav/components/rightNav'
 Vue.use(Vuex)
 
 Vue.config.ignoredElements = [
-  'v-toolbar', 'v-toolbar-side-icon', 'v-toolbar-title', 'v-spacer', 'v-btn', 'v-list-tile-title', 'v-icon', 'v-list-tile-action', 'v-list-tile', 'v-list', 'v-navigation-drawer', 'v-list-tile-content',
+  'v-toolbar', 'v-toolbar-side-icon', 'v-toolbar-title', 'v-spacer', 'v-btn', 'v-list-tile-title', 'v-icon', 'v-list-tile-action', 'v-list-tile', 'v-list', 'v-navigation-drawer', 'v-list-tile-content', 'v-card', 'v-layout', 'v-flex', 'v-card-text', 'v-card-title', 'v-container', 'v-text-field', 'v-list-tile-avatar>'
 ];
 
 
@@ -29,6 +30,7 @@ describe('Nav.vue', () => {
     const wrapper = mount(Nav)
     expect(wrapper.contains(leftNav)).to.equal(true)
   })
+
   it('Navigation rightNav component', () => {
     const wrapper = mount(Nav)
     expect(wrapper.contains(rightNav)).to.equal(true)
@@ -60,7 +62,7 @@ describe('leftNav.vue', () => {
     img: '/static/img/avatars/hero.png',
     userName: 'heroHunter',
   }
-  beforeEach(() => {
+/*  beforeEach(() => {
     state = {
       module: {
         activeUser
@@ -70,9 +72,9 @@ describe('leftNav.vue', () => {
       state,
       getters: module.getters
     })
-  })
+  })*/
   const wrapper = mount(leftNav, {
-    store,
+/*    store,*/
     propsData: {
       clipped: true,
       miniVariant: true,
@@ -85,7 +87,7 @@ describe('leftNav.vue', () => {
   })
   it('<m-left-nav> is a <v-navigation-drawer>', () => {
     const wrapper = mount(leftNav, {
-      store,
+     /* store,*/
       propsData: {
         clipped: true,
         miniVariant: true,
@@ -108,5 +110,14 @@ describe('rightNav.vue', () => {
   it('<m-right-nav> is a <v-navigation-drawer>', () => {
     expect(wrapper.is('v-navigation-drawer')).to.equal(true)
   })
+})
+describe('leftNavLinks.vue', () => {
+    const wrapper = mount(leftNavLinks)
+    it('m-right-nav exists', () => {
+        expect(wrapper.name()).to.equal('m-left-nav-links')
+    })
+    it('<m-left-nav-links> is a <v-list>', () => {
+        expect(wrapper.is('v-list')).to.equal(true)
+    })
 })
 

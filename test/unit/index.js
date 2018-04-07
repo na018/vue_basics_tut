@@ -1,4 +1,45 @@
 import Vue from 'vue'
+import {
+    Vuetify,
+    VApp,
+    VNavigationDrawer,
+    VFooter,
+    VList,
+    VBtn,
+    VIcon,
+    VGrid,
+    VToolbar,
+    transitions,
+    VCard,
+    VCheckbox,
+    VSelect,
+    VTextField,
+    VDivider,
+    VAvatar
+} from 'vuetify'
+
+import draggable from 'vuedraggable'
+
+Vue.use(Vuetify, {
+    components: {
+        VApp,
+        VNavigationDrawer,
+        VFooter,
+        VList,
+        VBtn,
+        VIcon,
+        VGrid,
+        VToolbar,
+        transitions,
+        draggable,
+        VCard,
+        VCheckbox,
+        VSelect,
+        VTextField,
+        VDivider,
+        VAvatar
+    }
+})
 
 Vue.config.productionTip = false
 
