@@ -12,7 +12,6 @@
 </template>
 
 <script>
-  import {mapActions} from 'vuex'
 
   export default {
     components: {},
@@ -28,9 +27,8 @@
       }
     },
     methods: {
-      ...mapActions(['setActiveUser']),
       setActive() {
-          // todo call setActiveUser method from store and transmit user Object as property (payload)
+          // todo |KB-4| tell the parent component it should update it's activeUser
       },
     },
   }
