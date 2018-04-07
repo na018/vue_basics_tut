@@ -4,6 +4,7 @@ import Vue from 'vue'
 const state = {
   all: [],
   cardsByStatus: {},
+    status: [],
   activeBoard: {
     name: 'kanban',
     abbr: 'KB',
