@@ -10,7 +10,8 @@ export default new Router({
       path: '*',
       name: 'UserAdmin',
       component: UserAdmin
-    }
+    },
+      // todo |KB-7| implement routes to '/' '/board' '/users' to UserAdmin page & KanBanBoard page
   ],
   mode: 'history'
 })
