@@ -7,7 +7,7 @@
 > If you want to try out the resulting dashboard you may directly jump to [the tutorial resulting kanban board](https://github.com/na018/vue_basics_tut/tree/origin/exercise/06_finishedApp).
 ------
 ### Contens:
-> * [Exercise 1: _data bining_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/00_data_binding)
+> * [Exercise 1: _data binding_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/00_data_binding)
 > * [Exercise 2: _component communication_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/01_components)
 > * [Exercise 3: _directives (conditional, loops_)](https://github.com/na018/vue_basics_tut/tree/origin/exercise/02_directives)
 > * [Exercise 4: _global state management with vuex_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/03_state_management_vuex)
