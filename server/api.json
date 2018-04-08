@@ -52,22 +52,22 @@
       "status": "todo",
       "subTasks": {
         "implement": {
-          "responsible": "",
+          "responsible": "Colin Conjurer",
           "name": "developer",
           "status": ""
         },
         "test": {
-          "responsible": "",
+          "responsible": "Ada Lovelace",
           "name": "tester",
           "status": ""
         },
         "document": {
-          "responsible": "",
+          "responsible": "Hero Hunter",
           "name": "writer",
           "status": ""
         },
         "review": {
-          "responsible": "",
+          "responsible": "Justin Timber",
           "name": "reviewer",
           "status": ""
         }
@@ -83,6 +83,74 @@
       "refBoardId": 1,
       "title": "Implement UserCard.vue for displaying Users nicely",
       "description": "Understand props (Properties) and parent-child component relationships",
+      "status": "todo",
+      "subTasks": {
+        "implement": {
+          "responsible": "Ada Lovelace",
+          "name": "developer",
+          "status": ""
+        },
+        "test": {
+          "responsible": "Justin Timber",
+          "name": "tester",
+          "status": ""
+        },
+        "document": {
+          "responsible": "Colin Conjurer",
+          "name": "writer",
+          "status": ""
+        },
+        "review": {
+          "responsible": "Jessi James",
+          "name": "reviewer",
+          "status": ""
+        }
+      },
+      "creator": "heroHunter",
+      "order": 1,
+      "fixed": false,
+      "taskType": "feature",
+      "kanBanBoardId": "1"
+    },
+    {
+      "id": 3,
+      "refBoardId": 1,
+      "title": "Understand directives v-if, v-show, v-for",
+      "description": "Accordingly update UserAdmin",
+      "status": "todo",
+      "subTasks": {
+        "implement": {
+          "responsible": "Hero Hunter",
+          "name": "developer",
+          "status": ""
+        },
+        "test": {
+          "responsible": "Ada Lovelace",
+          "name": "tester",
+          "status": ""
+        },
+        "document": {
+          "responsible": "Colin Conjurer",
+          "name": "writer",
+          "status": ""
+        },
+        "review": {
+          "responsible": "",
+          "name": "reviewer",
+          "status": ""
+        }
+      },
+      "creator": "heroHunter",
+      "order": 2,
+      "fixed": false,
+      "taskType": "other",
+      "kanBanBoardId": "1"
+    },
+    {
+      "id": 4,
+      "refBoardId": 1,
+      "title": "Change the active user in UserAdmin.vue",
+      "description": "if someone clicks on a UserCard the component should emit an event telling it's parent it should update it's active User",
       "status": "todo",
       "subTasks": {
         "implement": {
@@ -107,9 +175,247 @@
         }
       },
       "creator": "heroHunter",
-      "order": 1,
+      "order": 3,
+      "fixed": false,
+      "taskType": "",
+      "kanBanBoardId": "1"
+    },
+    {
+      "id": 5,
+      "refBoardId": 1,
+      "title": "Get all users & active User from vuex store",
+      "description": "understand getters in vue (vuex)",
+      "status": "todo",
+      "subTasks": {
+        "implement": {
+          "responsible": "",
+          "name": "developer",
+          "status": ""
+        },
+        "test": {
+          "responsible": "",
+          "name": "tester",
+          "status": ""
+        },
+        "document": {
+          "responsible": "",
+          "name": "writer",
+          "status": ""
+        },
+        "review": {
+          "responsible": "",
+          "name": "reviewer",
+          "status": ""
+        }
+      },
+      "creator": "heroHunter",
+      "order": 4,
       "fixed": false,
       "taskType": "feature",
+      "kanBanBoardId": "1"
+    },
+    {
+      "id": 6,
+      "refBoardId": 1,
+      "title": "Set active user globally",
+      "description": "The navigation & kanban board should know the active user. Update the user globally in the vuex store",
+      "status": "todo",
+      "subTasks": {
+        "implement": {
+          "responsible": "",
+          "name": "developer",
+          "status": ""
+        },
+        "test": {
+          "responsible": "",
+          "name": "tester",
+          "status": ""
+        },
+        "document": {
+          "responsible": "",
+          "name": "writer",
+          "status": ""
+        },
+        "review": {
+          "responsible": "",
+          "name": "reviewer",
+          "status": ""
+        }
+      },
+      "creator": "heroHunter",
+      "order": 5,
+      "fixed": false,
+      "taskType": "bug",
+      "kanBanBoardId": "1"
+    },
+    {
+      "id": 7,
+      "refBoardId": 1,
+      "title": "Understand routing",
+      "description": "implement routes to '/' '/board' '/users' to UserAdmin page & KanBanBoard page",
+      "status": "todo",
+      "subTasks": {
+        "implement": {
+          "responsible": "",
+          "name": "developer",
+          "status": ""
+        },
+        "test": {
+          "responsible": "",
+          "name": "tester",
+          "status": ""
+        },
+        "document": {
+          "responsible": "",
+          "name": "writer",
+          "status": ""
+        },
+        "review": {
+          "responsible": "",
+          "name": "reviewer",
+          "status": ""
+        }
+      },
+      "creator": "heroHunter",
+      "order": 6,
+      "fixed": false,
+      "taskType": "other",
+      "kanBanBoardId": "1"
+    },
+    {
+      "id": 8,
+      "refBoardId": 1,
+      "title": "Help the user to find their board",
+      "description": "in 'src/components/nav/components/leftNavLinks.vue' add link to /board with 'dashboard' icon ",
+      "status": "todo",
+      "subTasks": {
+        "implement": {
+          "responsible": "",
+          "name": "developer",
+          "status": ""
+        },
+        "test": {
+          "responsible": "",
+          "name": "tester",
+          "status": ""
+        },
+        "document": {
+          "responsible": "",
+          "name": "writer",
+          "status": ""
+        },
+        "review": {
+          "responsible": "",
+          "name": "reviewer",
+          "status": ""
+        }
+      },
+      "creator": "heroHunter",
+      "order": 7,
+      "fixed": false,
+      "taskType": "bug",
+      "kanBanBoardId": "1"
+    },
+    {
+      "id": 9,
+      "refBoardId": 1,
+      "title": "Show columns 'todo, inProgress, done' on Board page",
+      "description": "In 'pages/KanBanBoard.vue' a <m-kan-ban-column> should be created for each possible status type",
+      "status": "todo",
+      "subTasks": {
+        "implement": {
+          "responsible": "",
+          "name": "developer",
+          "status": ""
+        },
+        "test": {
+          "responsible": "",
+          "name": "tester",
+          "status": ""
+        },
+        "document": {
+          "responsible": "",
+          "name": "writer",
+          "status": ""
+        },
+        "review": {
+          "responsible": "",
+          "name": "reviewer",
+          "status": ""
+        }
+      },
+      "creator": "heroHunter",
+      "order": 8,
+      "fixed": false,
+      "taskType": "bug",
+      "kanBanBoardId": "1"
+    },
+    {
+      "id": 10,
+      "refBoardId": 1,
+      "title": "Define status in vuex store",
+      "description": "define status type in 'src/store/modules/kanbancards.js' for card status and board columns",
+      "status": "todo",
+      "subTasks": {
+        "implement": {
+          "responsible": "",
+          "name": "developer",
+          "status": ""
+        },
+        "test": {
+          "responsible": "",
+          "name": "tester",
+          "status": ""
+        },
+        "document": {
+          "responsible": "",
+          "name": "writer",
+          "status": ""
+        },
+        "review": {
+          "responsible": "",
+          "name": "reviewer",
+          "status": ""
+        }
+      },
+      "creator": "heroHunter",
+      "order": 9,
+      "fixed": false,
+      "taskType": "feature",
+      "kanBanBoardId": "1"
+    },
+    {
+      "id": 11,
+      "refBoardId": 1,
+      "title": "Add getter in vuex store for receiving the status",
+      "description": "create getStatus getter in kanbancards.js in vuex store",
+      "status": "todo",
+      "subTasks": {
+        "implement": {
+          "responsible": "",
+          "name": "developer",
+          "status": ""
+        },
+        "test": {
+          "responsible": "",
+          "name": "tester",
+          "status": ""
+        },
+        "document": {
+          "responsible": "",
+          "name": "writer",
+          "status": ""
+        },
+        "review": {
+          "responsible": "",
+          "name": "reviewer",
+          "status": ""
+        }
+      },
+      "creator": "heroHunter",
+      "order": 10,
+      "fixed": false,
+      "taskType": "bug",
       "kanBanBoardId": "1"
     }
   ]
