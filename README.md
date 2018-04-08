@@ -1,4 +1,4 @@
-# Exercise 1: _Data Binidng_
+# Exercise 1: _Data Binding_
 > In this exercise you will learn about one-way & two-way data binding
 
 ## Setup: Keep up & running
