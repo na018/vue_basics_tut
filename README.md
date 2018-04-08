@@ -4,7 +4,7 @@
 --------------------
 ![kanban board gif](assets/boardPreview.gif "Learn how to create a Kanban board Vue application")
 -------------------
-> If you want to try out the resulting dashboard you may directly jump to [the tutorial resulting kanban board](https://github.com/na018/vue_basics_tut/tree/origin/exercise/06_finishedApp)
+> If you want to try out the resulting dashboard you may directly jump to [the tutorial resulting kanban board](https://github.com/na018/vue_basics_tut/tree/origin/exercise/06_finishedApp).
 ------
 ### Contens:
 > * [Excercise 1: _data binidng_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/00_data_binding)
