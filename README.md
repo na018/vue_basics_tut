@@ -39,7 +39,7 @@ Nadin-Katrin Apel, Alex Schübl, David Bochan
 ### Further Suggestions
 _(Awesome that you kept reading til down here)_
 
-Now are you ready to take the challenge? Then what keeps you still waiting? - Start with [Exercise 1: _data binidng_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/00_data_binding)!
+Now are you ready to take the challenge? Then what keeps you still waiting? - Start with [Exercise 1: _data binding_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/00_data_binding)!
  ![Good luck](assets/luck.jpg "Kleeblatt")
 
  
