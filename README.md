@@ -1,4 +1,4 @@
-# Exercise 2: _Data Binding_
+# Exercise 2: _Components in Vue.js_
 > In this exercise you will learn about components, parent child relationships: how to pass data from the parent to the child & how to emit events in the child to tell the parent that something has happend
 >
 > In the last tutorial we learnt about one-way and two-way data binding. 
