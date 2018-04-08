@@ -33,6 +33,7 @@ In src/components/userAdminComponents/UserCard.vue:
 2. |KB-2| get User Object _onePerson_ from parent component throw the props attribute
 
 in src/components/pages/UserAdmin.vue:
+
 3. |KB-2| use 'src/components/userAdminComponents/UserCard.vue' for displaying one Person by passing the Person object as attribute to `<m-user-card>`
 
 
