@@ -28,8 +28,8 @@ describe('KanBanCard.vue', () => {
   it("KanBanCard component exists with name 'm-kan-ban-card' exists'", () => {
     expect(wrapper.name()).to.equal('m-kan-ban-card')
   })
-  it('<m-kan-ban-card> is a <v-card>', () => {
+ /* it('<m-kan-ban-card> is a <v-card>', () => {
     expect(wrapper.is('v-card')).to.equal(true)
-  })
+  })*/
 
 })
