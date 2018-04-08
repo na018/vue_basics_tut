@@ -77,6 +77,40 @@
       "fixed": false,
       "taskType": "feature",
       "kanBanBoardId": "1"
+    },
+    {
+      "id": 2,
+      "refBoardId": 1,
+      "title": "Implement UserCard.vue for displaying Users nicely",
+      "description": "Understand props (Properties) and parent-child component relationships",
+      "status": "todo",
+      "subTasks": {
+        "implement": {
+          "responsible": "",
+          "name": "developer",
+          "status": ""
+        },
+        "test": {
+          "responsible": "",
+          "name": "tester",
+          "status": ""
+        },
+        "document": {
+          "responsible": "",
+          "name": "writer",
+          "status": ""
+        },
+        "review": {
+          "responsible": "",
+          "name": "reviewer",
+          "status": ""
+        }
+      },
+      "creator": "heroHunter",
+      "order": 1,
+      "fixed": false,
+      "taskType": "feature",
+      "kanBanBoardId": "1"
     }
   ]
 }
