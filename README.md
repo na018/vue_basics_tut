@@ -28,8 +28,8 @@ In src/components/pages/UserAdmin.vue:
 4. |KB-1| if a user types into the <v-text-field> the event @input is fired. Use it for updating the onePerson's attributes _(@input="changedName => onePerson.name = changedName")_
 5. |KB-1| replace _v-bind_ by _v-model_ and remove the @input event to understand two-way data binding
 
-<img src="static/img/readme/exercise.png" alt="exercise" style="max-width: 50%; height: auto;"/>
-<img src="static/img/readme/folderStructure.png" alt="exercise" style="max-width: 50%; height: auto;"/>
+<img src="static/img/readme/exercise.png" alt="exercise" style="max-width: 300px; height: auto;"/>
+<img src="static/img/readme/folderStructure.png" alt="exercise" style="max-width: 200px; height: auto;"/>
 
 
 --------------------
