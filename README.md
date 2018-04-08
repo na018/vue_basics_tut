@@ -8,7 +8,7 @@
 git clone origin/exercise/00_data_binding git@github.com:na018/vue_basics_tut.git vueTut/00_databinding && cd vueTut/00_databinding
 
 #prerequisite: node.js is installed
-node -v         #returns for example v8.2.1
+node -v                                      #returns for example v8.2.1
 
 # install dependencies
 npm i
@@ -23,9 +23,9 @@ npm start
 ## todo
 In src/components/pages/UserAdmin.vue:
 1. |KB-1| create onePerson Object with userName, firstName, lastName, img as Object attributes _(in <script> data())_
-2. |KB-1| display the onePerson Object in a paragraph &ltp&gt element _(in <template>)_
-3. |KB-1| create an unordered list ul>li & show all onePerson attributes in a &ltv-text-field&gt|value and the image (img|src) with 1-way data binding _(v-bind)_
-4. |KB-1| if a user types into the &ltv-text-field&gt the event @input is fired. Use it for updating the onePerson's attributes _(@input="changedName => onePerson.name = changedName")_
+2. |KB-1| display the onePerson Object in a paragraph `<p>` element _(in <template>)_
+3. |KB-1| create an unordered list ul>li & show all onePerson attributes in a `<v-text-field>`|value and the image (`<img>`|src) with 1-way data binding _(v-bind)_
+4. |KB-1| if a user types into the `<v-text-field>` the event @input is fired. Use it for updating the onePerson's attributes _(@input="changedName => onePerson.name = changedName")_
 5. |KB-1| replace _v-bind_ by _v-model_ and remove the @input event to understand two-way data binding
 
 <img src="static/img/readme/exercise.png" alt="exercise" style="width: 300px; height: auto;"/>
