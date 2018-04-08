@@ -22,13 +22,15 @@ npm start
 ```
 ## todo
 In src/components/pages/UserAdmin.vue:
-    1. |KB-1| create onePerson Object with userName, firstName, lastName, img as Object attributes _(in <script> data())_
-    2. |KB-1| display the onePerson Object in a paragraph <p> element _(in <template>)_
-    3. |KB-1| create an unordered list <ul><li></li></ul> & show all onePerson attributes in a <v-text-field> with 1-way data binding _(v-bind)_
-    4. |KB-1| if a user types into the <v-text-field> the event @input is fired. Use it for updating the onePerson's attributes _(@input="changedName => onePerson.name = changedName")_
-    5. |KB-1| replace _v-bind_ by _v-model_ and remove the @input event to understand two-way data binding
+1. |KB-1| create onePerson Object with userName, firstName, lastName, img as Object attributes _(in <script> data())_
+2. |KB-1| display the onePerson Object in a paragraph <p> element _(in <template>)_
+3. |KB-1| create an unordered list <ul><li></li></ul> & show all onePerson attributes in a <v-text-field> with 1-way data binding _(v-bind)_
+4. |KB-1| if a user types into the <v-text-field> the event @input is fired. Use it for updating the onePerson's attributes _(@input="changedName => onePerson.name = changedName")_
+5. |KB-1| replace _v-bind_ by _v-model_ and remove the @input event to understand two-way data binding
 
-| ![exercise](static/img/readme/exercise.png "exercise") | ![exercise](static/img/readme/folderStructure.png "exercise")|
+<img src="static/img/readme/exercise.png" alt="exercise" style="max-width: 50%; height: auto;"/>
+<img src="static/img/readme/folderStructure.png" alt="exercise" style="max-width: 50%; height: auto;"/>
+
 
 --------------------
 ![KanBan Project Architecture](static/img/readme/ProjectArchitecture.png "KanBan Project Architecture")
