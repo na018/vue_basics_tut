@@ -7,12 +7,12 @@
 > If you want to try out the resulting dashboard you may directly jump to [the tutorial resulting kanban board](https://github.com/na018/vue_basics_tut/tree/origin/exercise/06_finishedApp).
 ------
 ### Contens:
-> * [Exercised 1: _data binidng_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/00_data_binding)
-> * [Exercised 2: _component communication_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/01_components)
-> * [Exercised 3: _directives (conditional, loops_)](https://github.com/na018/vue_basics_tut/tree/origin/exercise/02_directives)
-> * [Exercised 4: _gloabal state management with vuex_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/03_state_management_vuex)
-> * [Exercised 5: _routing_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/04_routing)
-> * [Exercised 6: _final adjustments_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/05_knowledge_transfer)
+> * [Exercise 1: _data binidng_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/00_data_binding)
+> * [Exercise 2: _component communication_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/01_components)
+> * [Exercise 3: _directives (conditional, loops_)](https://github.com/na018/vue_basics_tut/tree/origin/exercise/02_directives)
+> * [Exercise 4: _gloabal state management with vuex_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/03_state_management_vuex)
+> * [Exercise 5: _routing_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/04_routing)
+> * [Exercise 6: _final adjustments_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/05_knowledge_transfer)
 ------
 ### Intro
 This Project is part of the study subject _Webapplication Development (with focus on web frameworks)_ at the [_Stuttgart Media University_](https://www.hdm-stuttgart.de) in the masters program _Computer Science and Media_ and was realized in summer semester 2018.
@@ -39,7 +39,7 @@ Nadin-Katrin Apel, Alex Schübl, David Bochan
 ### Further Suggestions
 _(Awesome that you kept reading til down here)_
 
-Now are you ready to take the challenge? Then what keeps you still waiting? - Start with [Exercised 1: _data binidng_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/00_data_binding)!
+Now are you ready to take the challenge? Then what keeps you still waiting? - Start with [Exercise 1: _data binidng_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/00_data_binding)!
  ![Good luck](assets/luck.jpg "Kleeblatt")
 
  
