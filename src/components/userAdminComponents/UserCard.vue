@@ -14,7 +14,7 @@
               type: Object,
               required: true,
           },
-          // todo |KB-2| get User Object & userName from parent Component
+          // todo |KB-2| get User Object onePerson from parent Component
       },
   }
 </script>

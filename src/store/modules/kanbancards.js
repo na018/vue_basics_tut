@@ -9,6 +9,7 @@ const state = {
     abbr: 'KB',
     id: 1
   },
+    status: [],
    /* todo define status type (e.g. status: ['inProgress', 'done'...]) used in 'src/components/kanBanComponents/KanBanColumn.vue' defining the columns, in 'src/components/kanBanComponents/KanBanCard.vue' defining the card view & in 'src/store/modules/kanbancards.js' receiveAllCards() for Ordering the cards by status*/
 }
 
