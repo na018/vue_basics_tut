@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/plugins/logger.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">all files</a> / <a href="index.html">src/plugins/</a> logger.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">11.11% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>3/27</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">50% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>6/12</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">25% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>2/8</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">11.11% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>3/27</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { deepCopy } from './util'
+&nbsp;
+export default function createLogger ({
+                                        collapsed = true,
+                                        filter = (mutation, stateBefore, stateAfter) =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >true,</span></span>
+                                        transformer = state =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >state,</span></span>
+                                        mutationTransformer = mut =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >mut,</span></span>
+                                        logger = console
+                                      } = {}) {
+  return store =&gt; {
+    let prevState = deepCopy(store.state)
+&nbsp;
+    store.subscribe((mutation, state) =&gt; <span class="fstat-no" title="function not covered" >{</span>
+<span class="cstat-no" title="statement not covered" >      if (typeof logger === 'undefined') {</span>
+<span class="cstat-no" title="statement not covered" >        return</span>
+      }
+      const nextState = <span class="cstat-no" title="statement not covered" >deepCopy(state)</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >      if (filter(mutation, prevState, nextState)) {</span>
+        const time = <span class="cstat-no" title="statement not covered" >new Date()</span>
+        const formattedTime = <span class="cstat-no" title="statement not covered" >` @ ${pad(time.getHours(), 2)}:${pad(time.getMinutes(), 2)}:${pad(time.getSeconds(), 2)}.${pad(time.getMilliseconds(), 3)}`</span>
+        const formattedMutation = <span class="cstat-no" title="statement not covered" >mutationTransformer(mutation)</span>
+        const message = <span class="cstat-no" title="statement not covered" >`mutation ${mutation.type}${formattedTime}`</span>
+        const startMessage = <span class="cstat-no" title="statement not covered" >collapsed</span>
+          ? logger.groupCollapsed
+          : logger.group
+&nbsp;
+        // render
+<span class="cstat-no" title="statement not covered" >        try {</span>
+<span class="cstat-no" title="statement not covered" >          startMessage.call(logger, message)</span>
+        } catch (e) {
+<span class="cstat-no" title="statement not covered" >          console.log(message)</span>
+        }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        logger.log('%c prev state', 'color: #9E9E9E; font-weight: bold', transformer(prevState))</span>
+<span class="cstat-no" title="statement not covered" >        logger.log('%c mutation', 'color: #03A9F4; font-weight: bold', formattedMutation)</span>
+<span class="cstat-no" title="statement not covered" >        logger.log('%c next state', 'color: #4CAF50; font-weight: bold', transformer(nextState))</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        try {</span>
+<span class="cstat-no" title="statement not covered" >          logger.groupEnd()</span>
+        } catch (e) {
+<span class="cstat-no" title="statement not covered" >          logger.log('—— log end ——')</span>
+        }
+      }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >      prevState = nextState</span>
+    })
+  }
+}
+&nbsp;
+function repeat (str, times) <span class="fstat-no" title="function not covered" >{</span>
+<span class="cstat-no" title="statement not covered" >  return (new Array(times + 1)).join(str)</span>
+}
+&nbsp;
+function pad (num, maxLength) <span class="fstat-no" title="function not covered" >{</span>
+<span class="cstat-no" title="statement not covered" >  return repeat('0', maxLength - num.toString().length) + num</span>
+}
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Mon Apr 09 2018 16:49:42 GMT+0200 (CEST)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>
