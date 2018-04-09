@@ -49,25 +49,25 @@
       "refBoardId": 1,
       "title": "Implement data-binding in UserAdmin.vue",
       "description": "create an editable Person Object",
-      "status": "todo",
+      "status": "inProgress",
       "subTasks": {
         "implement": {
-          "responsible": "Colin Conjurer",
+          "responsible": "",
           "name": "developer",
           "status": ""
         },
         "test": {
-          "responsible": "Ada Lovelace",
+          "responsible": "",
           "name": "tester",
           "status": ""
         },
         "document": {
-          "responsible": "Hero Hunter",
+          "responsible": "",
           "name": "writer",
           "status": ""
         },
         "review": {
-          "responsible": "Justin Timber",
+          "responsible": "",
           "name": "reviewer",
           "status": ""
         }
@@ -83,25 +83,25 @@
       "refBoardId": 1,
       "title": "Implement UserCard.vue for displaying Users nicely",
       "description": "Understand props (Properties) and parent-child component relationships",
-      "status": "todo",
+      "status": "inProgress",
       "subTasks": {
         "implement": {
-          "responsible": "Ada Lovelace",
+          "responsible": "",
           "name": "developer",
           "status": ""
         },
         "test": {
-          "responsible": "Justin Timber",
+          "responsible": "",
           "name": "tester",
           "status": ""
         },
         "document": {
-          "responsible": "Colin Conjurer",
+          "responsible": "",
           "name": "writer",
           "status": ""
         },
         "review": {
-          "responsible": "Jessi James",
+          "responsible": "",
           "name": "reviewer",
           "status": ""
         }
@@ -120,17 +120,17 @@
       "status": "todo",
       "subTasks": {
         "implement": {
-          "responsible": "Hero Hunter",
+          "responsible": "",
           "name": "developer",
           "status": ""
         },
         "test": {
-          "responsible": "Ada Lovelace",
+          "responsible": "",
           "name": "tester",
           "status": ""
         },
         "document": {
-          "responsible": "Colin Conjurer",
+          "responsible": "",
           "name": "writer",
           "status": ""
         },
@@ -185,7 +185,7 @@
       "refBoardId": 1,
       "title": "Get all users & active User from vuex store",
       "description": "understand getters in vue (vuex)",
-      "status": "todo",
+      "status": "inProgress",
       "subTasks": {
         "implement": {
           "responsible": "",
