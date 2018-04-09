@@ -3,7 +3,7 @@
 >
 > In this awesome tutorial series you have learned about data-binding, conditionals & loops, components, routing, & the vuex store. Now you are ready to start working on your own fascinating applications.
 >
-> _(You could of course as well work out this board to better fit your needs )_😏🖳 
+> _(You could of course as well work out this board to better fit your needs )_ 😏🖳 
 
 ## Setup: Keep up & running
 
