@@ -23,7 +23,7 @@
     props: {
       title: {
         type: String,
-        default: 'Welcome to my CanBan Board'
+        default: 'Welcome to my KanBan Board'
       }
     },
     data() {
