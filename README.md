@@ -30,6 +30,7 @@ in src/router/index.js:
 1. |KB-7| implement routes to '/' '/board' '/users' to `UserAdmin` page & `KanBanBoard` page
 
 In src/components/nav/components/leftNavLinks.vue:
+
 2. |KB-8| add link to /board with 'dashboard' icon
 
 -------------------
