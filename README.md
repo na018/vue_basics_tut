@@ -1,5 +1,5 @@
 # Exercise 2: _Components in Vue.js_
-> In this exercise you will learn about components, parent child relationships: how to pass data from the parent to the child & how to emit events in the child to tell the parent that something has happend
+> In this exercise you will learn about components, parent child relationships: how to pass data from the parent to the child & how to emit events in the child to tell the parent that something has happened
 >
 > In the last tutorial we learnt about one-way and two-way data binding. 
 > One-way data-binding is accomplished with _v-bind_. With the help of this directive the Application data can be easily mapped to an HTML element _(so luckily no traversals through the HTML DOM are necessary for finding the intended element)_
@@ -12,7 +12,7 @@
 
 ``` bash
 # download branch (make sure you are one level above vueTut)
-git clone origin/exercise/01_components git@github.com:na018/vue_basics_tut.git vueTut/00_databinding && cd vueTut/01_components
+git clone origin/exercise/01_components git@github.com:na018/vue_basics_tut.git vueTut/01_components && cd vueTut/01_components
 
 #prerequisite: node.js is installed
 node -v                                      #returns for example v8.2.1
