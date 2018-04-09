@@ -98,7 +98,7 @@ _(Awesome that you kept reading til down here)_
 
 Now are you ready to take the next challenge? Then what keeps you still waiting? - 
 
-Continue with [Exercise 3: _directives (conditional, loops)_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/02_directives)
+Continue with [Exercise 4: _Global state management with Vuex_](https://github.com/na018/vue_basics_tut/tree/origin/exercise/03_state_management_vuex)
 
  ![Good luck](static/img/readme/luck.jpg "Kleeblatt")
 
