@@ -17,7 +17,7 @@ const getters = {
     allCards: state => state.all,
     cardsByStatus: state => state.cardsByStatus,
     activeBoard: state => state.activeBoard,
-    // todo implement 'getStatus' getter returning the status possibilities of the kanban column & card status types (e.g. inProgress, done)
+    // todo |KB-9| implement 'getStatus' getter returning the status possibilities of the kanban column & card status types (e.g. inProgress, done)
 }
 
 const actions = {

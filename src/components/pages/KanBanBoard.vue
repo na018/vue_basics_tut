@@ -1,6 +1,6 @@
 <template>
   <v-layout row v-if="cardsByStatus">
-    <!-- todo |kB-9| create 'm-kan-ban-column' for each status defined in the vuex store 'src/store/modules/kanbancards.js' -->
+    <!-- todo |KB-9| create 'm-kan-ban-column' for each status defined in the vuex store 'src/store/modules/kanbancards.js' -->
   </v-layout>
 </template>
 
