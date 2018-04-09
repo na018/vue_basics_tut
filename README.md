@@ -5,7 +5,7 @@
 > 
 > However there appeared a bug:
 >
-> The navigation component did not update the active User, however it was changed in there UserAdmin component. The active user will be used in a couple of places in the application _(the later implemented board as well)_. So we need some global state management here :)
+> The navigation component did not update the active user, however it was changed in the UserAdmin component. The active user will be used in a couple of places in the application _(the later implemented board as well)_. So we need some global state management here :)
 >
 > Now have fun with this tutorial! 😏🖳 
 
