@@ -30,8 +30,8 @@ The exercises are chosen wisely trying to improve the comprehension of the main 
 -------------------
 
 ### Team
-Nadin-Katrin Apel, Alex Schübl, David Bochan
- ![Team photo](assets/team.jpg "Team")
+Nadin-Katrin Apel, David Bochan, Alex Schübl
+ ![Team photo](assets/team.png "Team")
  
  Professor: _Prof. Dr. Fridtjof Toenniessen_
 -------------------
