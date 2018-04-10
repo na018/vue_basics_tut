@@ -18,7 +18,7 @@
 This Project is part of the study subject _Webapplication Development (with focus on web frameworks)_ at the [_Stuttgart Media University_](https://www.hdm-stuttgart.de) in the masters program _Computer Science and Media_ and was realized in summer semester 2018.
 
 The frontend web application was developed with the client-side JavaScript framework [vue.js](https://vuejs.org/) _(^2.5.2)_.
-The backend will be realized with the GoLang Framework _Iris_.
+The backend will be realized with the GoLang Framework Gin-Gonic.
 For test occasions this tutorial is provided with a JSON mock server that will later be replaced by the GoLang backend application.
 In the attached PDF a closer look on both frameworks will be provided. 
 It includes:
