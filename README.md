@@ -12,7 +12,7 @@
 
 ``` bash
 # download branch (make sure you are one level above vueTut)
-git clone origin/exercise/01_components git@github.com:na018/vue_basics_tut.git vueTut/01_components && cd vueTut/01_components
+git clone -b origin/exercise/01_components https://github.com/na018/vue_basics_tut.git vueTut/01_components && cd vueTut/01_components
 
 #prerequisite: node.js is installed
 node -v                                      #returns for example v8.2.1
