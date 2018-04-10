@@ -13,7 +13,7 @@
 
 ``` bash
 # download branch (make sure you are one level above vueTut)
-git clone origin/exercise/03_state_management_vuex git@github.com:na018/vue_basics_tut.git vueTut/02_directives && cd vueTut/03_state_management_vuex
+git clone -b origin/exercise/03_state_management_vuex https://github.com/na018/vue_basics_tut.git vueTut/03_state_management_vuex && cd vueTut/03_state_management_vuex
 
 #prerequisite: node.js is installed
 node -v                                      #returns for example v8.2.1
