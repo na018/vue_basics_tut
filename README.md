@@ -9,7 +9,8 @@
 
 ``` bash
 # download branch (make sure you are one level above vueTut)
-git clone origin/exercise/05_knowledge_transfer git@github.com:na018/vue_basics_tut.git vueTut/02_directives && cd vueTut/05_knowledge_transfer
+git clone -b origin/exercise/05_knowledge_transfer https://github.com/na018/vue_basics_tut.git vueTut/05_knowledge_transfer && cd vueTut/05_knowledge_transfer
+
 
 #prerequisite: node.js is installed
 node -v                                      #returns for example v8.2.1
