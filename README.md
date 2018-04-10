@@ -4,8 +4,8 @@
 ## Setup: Keep up & running
 
 ``` bash
-# download branch 
-git clone origin/exercise/00_data_binding git@github.com:na018/vue_basics_tut.git vueTut/00_databinding && cd vueTut/00_databinding
+# clone branch for first excercise
+git clone -b origin/exercise/00_data_binding https://github.com/na018/vue_basics_tut.git vueTut/00_data_binding
 
 #prerequisite: node.js is installed
 node -v                                      #returns for example v8.2.1
