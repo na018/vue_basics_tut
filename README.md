@@ -51,8 +51,8 @@ In src/components/userAdminComponents/ActivateUser.vue:
 -------------------
 
 ### Team
-Nadin-Katrin Apel, Alex Schübl, David Bochan
- ![Team photo](static/img/readme/team.jpg "Team")
+Nadin-Katrin Apel, David Bochan, Alex Schübl
+ ![Team photo](static/img/readme/team.png "Team")
  
  Professor: _Prof. Dr. Fridtjof Toenniessen_
 -------------------
