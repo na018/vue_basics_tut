@@ -5,7 +5,7 @@
 
 ``` bash
 # clone branch for first excercise
-git clone -b origin/exercise/00_data_binding https://github.com/na018/vue_basics_tut.git vueTut/00_data_binding
+git clone -b origin/exercise/00_data_binding https://github.com/na018/vue_basics_tut.git vueTut/00_data_binding && cd vueTut/00_data_binding
 
 #prerequisite: node.js is installed
 node -v                                      #returns for example v8.2.1
