@@ -48,7 +48,7 @@ In src/components/nav/components/leftNavLinks.vue:
 
 ### Team
 Nadin-Katrin Apel, Alex Schübl, David Bochan
- ![Team photo](static/img/readme/team.jpg "Team")
+ ![Team photo](static/img/readme/team.png "Team")
  
  Professor: _Prof. Dr. Fridtjof Toenniessen_
 -------------------
