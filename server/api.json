@@ -52,24 +52,24 @@
       "status": "inProgress",
       "subTasks": {
         "implement": {
-          "responsible": "",
+          "responsible": "Colin Conjurer",
           "name": "developer",
-          "status": ""
+          "status": "done"
         },
         "test": {
-          "responsible": "",
+          "responsible": "Ada Lovelace",
           "name": "tester",
-          "status": ""
+          "status": "done"
         },
         "document": {
-          "responsible": "",
+          "responsible": "Justin Timber",
           "name": "writer",
-          "status": ""
+          "status": "done"
         },
         "review": {
-          "responsible": "",
+          "responsible": "Jessi James",
           "name": "reviewer",
-          "status": ""
+          "status": "done"
         }
       },
       "creator": "heroHunter",
@@ -117,7 +117,7 @@
       "refBoardId": 1,
       "title": "Understand directives v-if, v-show, v-for",
       "description": "Accordingly update UserAdmin",
-      "status": "todo",
+      "status": "inProgress",
       "subTasks": {
         "implement": {
           "responsible": "",
@@ -185,7 +185,7 @@
       "refBoardId": 1,
       "title": "Get all users & active User from vuex store",
       "description": "understand getters in vue (vuex)",
-      "status": "inProgress",
+      "status": "todo",
       "subTasks": {
         "implement": {
           "responsible": "",
