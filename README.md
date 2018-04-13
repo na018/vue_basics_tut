@@ -2,7 +2,7 @@
 ## This tutorial makes you understand the progressive framework Vue with awesome components from Vuetify
 ### When successfully completed you are ready to create your own fascinating Web Applications
 --------------------
-![kanban board gif](assets/boardPreview.gif "Learn how to create a Kanban board Vue application")
+![kanban board gif](assets/kanBanFinal.gif "Learn how to create a Kanban board Vue application")
 -------------------
 > If you want to try out the resulting dashboard you may directly jump to [the tutorial resulting kanban board](https://github.com/na018/vue_basics_tut/tree/origin/exercise/06_finishedApp).
 ------
