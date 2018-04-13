@@ -4,8 +4,8 @@
 ## Setup: Keep up & running
 
 ``` bash
-# download branch 
-git clone origin/exercise/00_data_binding git@github.com:na018/vue_basics_tut.git vueTut/00_databinding && cd vueTut/00_databinding
+# clone branch for first excercise
+git clone -b origin/exercise/00_data_binding https://github.com/na018/vue_basics_tut.git vueTut/00_data_binding && cd vueTut/00_data_binding
 
 #prerequisite: node.js is installed
 node -v                                      #returns for example v8.2.1
@@ -20,11 +20,11 @@ node server.js
 npm start
 
 ```
-## todo
+## ToDo
 In src/components/pages/UserAdmin.vue:
 1. |KB-1| create onePerson Object with userName, firstName, lastName, img as Object attributes _(in <script> data())_
-2. |KB-1| display the onePerson Object in a paragraph `<p>` element _(in <template>)_
-3. |KB-1| create an unordered list ul>li & show all onePerson attributes in a (`<v-text-field>`|value) and the image (`<img>`|src) with 1-way data binding _(v-bind)_
+2. |KB-1| display the onePerson Object in a paragraph `<p>` element _(in `<template>`)_
+3. |KB-1| create an unordered list `<ul>` & show all onePerson attributes in a (`<v-text-field>`|value) and the image (`<img>`|src) with 1-way data binding _(v-bind)_
 4. |KB-1| if a user types into the `<v-text-field>` the event @input is fired. Use it for updating the onePerson's attributes _(@input="changedName => onePerson.name = changedName")_
 5. |KB-1| replace _v-bind_ by _v-model_ and remove the @input event to understand two-way data binding
 
@@ -45,8 +45,8 @@ _(hints: classes used for styling `p.centerElem.card.pa-1`, `ul.centerElem.card.
 -------------------
 
 ### Team
-Nadin-Katrin Apel, Alex Schübl, David Bochan
- ![Team photo](static/img/readme/team.jpg "Team")
+Nadin-Katrin Apel, David Bochan, Alex Schübl
+ ![Team photo](static/img/readme/team.png "Team")
  
  Professor: _Prof. Dr. Fridtjof Toenniessen_
 -------------------
