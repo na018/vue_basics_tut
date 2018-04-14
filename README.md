@@ -27,7 +27,7 @@ npm start
 --------------
 
 ## Result _(finshed application 🎉)_
-![kanban board](static/img/readme/final.gif "kanban board")
+![kanban board](static/img/readme/kanBanFinal.gif "kanban board")
 
 
 --------------------
