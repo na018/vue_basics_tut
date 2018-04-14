@@ -41,7 +41,7 @@ In src/components/pages/KanBanBoard.vue:
 
 -------------------
 ## Result _(finshed application 🎉)_
-![kanban board](static/img/readme/kanbanFinal.gif "kanban board")
+![kanban board](static/img/readme/kanBanFinal.gif "kanban board")
 
 
 --------------------
