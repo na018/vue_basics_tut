@@ -29,7 +29,7 @@ npm start
 ## Result
 ![directives](static/img/readme/directives.gif "directives")
 --------------
-## todo
+## ToDo
 In src/components/userAdminComponents/ActivateUser.vue:
 1. |KB-3| use 'src/components/userAdminComponents/UserCard.vue' `<m-user-card>` for displaying the user nicely _(reuse the component built in the previous tutorial)_
 2. |KB-4| implement the method `setActive()`, which is activated when a user click on the btn. This method should tell the parent component to update it's activeUser
