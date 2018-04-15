@@ -25,7 +25,7 @@ In src/components/pages/UserAdmin.vue:
 1. |KB-1| create onePerson Object with userName, firstName, lastName, img as Object attributes _(in <script> data())_
 2. |KB-1| display the onePerson Object in a paragraph `<p>` element _(in `<template>`)_
 3. |KB-1| create an unordered list `<ul>` & show all onePerson attributes in a (`<v-text-field>`|value) and the image (`<img>`|src) with 1-way data binding _(v-bind)_
-4. |KB-1| if a user types into the `<v-text-field>` the event @input is fired. Use it for updating the onePerson's attributes _(@input="changedName => onePerson.name = changedName")_
+4. |KB-1| if a user types into the `<v-text-field>` the event @input is fired. Use it for updating the onePerson's attributes `@input="changedName => onePerson.name = changedName"`
 5. |KB-1| replace _v-bind_ by _v-model_ and remove the @input event to understand two-way data binding
 
 _(hints: classes used for styling `p.centerElem.card.pa-1`, `ul.centerElem.card.pa-5.mt-4`, `img.avatarIcon`)_
