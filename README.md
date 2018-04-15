@@ -1,4 +1,4 @@
-# Vue/ Vuetify tutorial _(in development)_
+# Vue/ Vuetify tutorial
 ## This tutorial makes you understand the progressive framework Vue with awesome components from Vuetify
 ### When successfully completed you are ready to create your own fascinating Web Applications
 --------------------
