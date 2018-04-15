@@ -27,7 +27,7 @@ node server.js
 npm start
 
 ```
-## todo
+## ToDo
 In src/components/userAdminComponents/UserCard.vue:
 1. |KB-2| implement UserCard with `<v-list-tile-avatar><v-list-tile-content>` as shown in the image below
 2. |KB-2| get User Object _onePerson_ from parent component throw the props attribute
