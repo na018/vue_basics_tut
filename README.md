@@ -26,7 +26,7 @@ npm start
 
 ```
 --------------
-## todo
+## ToDo
 in src/store/modules/kanbancards.js:
 1. |KB-9| define status type _(e.g. status: ['inProgress', 'done'...])_ 
 
