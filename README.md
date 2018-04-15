@@ -29,13 +29,13 @@ npm start
 
 ```
 --------------
-## todo
+## ToDo
 in src/components/pages/UserAdmin.vue:
-1. |KB-5| Use the Getter `allUsers` & `activeUser` from Vuex store _src/store/modules/users.js_ for receiving the global application state
+1. |KB-5| Use the Getter `allUsers` & `activeUser` from Vuex store 'src/store/modules/users.js' for receiving the global application state
 
 In src/components/userAdminComponents/ActivateUser.vue:
 
-2. |KB-6| update the method `setActive()` by calling the action `setActiveUser()` from _src/store/modules/users.js_ in Vuex store, which passes the user object to the correspondent mutation method, that updated the global state and with that updates the user in `leftNav.vue`.
+2. |KB-6| update the method `setActive()` by calling the action `setActiveUser()` from 'src/store/modules/users.js' in Vuex store, which passes the user object to the correspondent mutation method, that updated the global state and with that updates the user in `leftNav.vue`.
 
 -------------------
 ## Result
