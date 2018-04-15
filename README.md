@@ -25,7 +25,7 @@ npm start
 
 ```
 --------------
-## todo
+## ToDo
 in src/router/index.js:
 1. |KB-7| implement routes to '/' '/board' '/users' to `UserAdmin` page & `KanBanBoard` page
 
